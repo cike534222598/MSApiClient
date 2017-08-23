@@ -7,12 +7,17 @@
 //
 
 #import "MSAppDelegate.h"
+#import "MSApiClient.h"
 
 @implementation MSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+//    [MSApiClient shareClient].MS_API_ROOTURL = @"https://api.exinbao.com";
+//    [MSApiClient shareClient].MS_API_ROOTURL = @"https://ceshiapi.exinbao.com";
+
     return YES;
 }
 

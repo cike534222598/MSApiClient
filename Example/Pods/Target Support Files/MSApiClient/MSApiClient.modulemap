@@ -1,0 +1,6 @@
+framework module MSApiClient {
+  umbrella header "MSApiClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

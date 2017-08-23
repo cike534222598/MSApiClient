@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.6.2)
+  - MJExtension (3.0.13)
+  - MSApiClient (1.0.0):
+    - AFNetworking (~> 3.1.0)
+    - AliyunOSSiOS (~> 2.6.0)
+    - MJExtension (~> 3.0.13)
+    - YYCache (~> 1.0.3)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - MSApiClient (from `../`)
+
+EXTERNAL SOURCES:
+  MSApiClient:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AliyunOSSiOS: 602bc287cfa30a2a6375907e684ec66d0c45e3f1
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MSApiClient: 64e89287fb9e596c62ddc7221c132a624d228afe
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: 8b31d88bc160d3560788735d134dc91902390bfb
+
+COCOAPODS: 1.2.1

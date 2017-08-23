@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MSApiClient'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MSApiClient.'
+  s.version          = '1.0.0'
+  s.summary          = 'Microseer internal network request components.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    Microseer internal network request components.
                        DESC
 
   s.homepage         = 'https://github.com/cike534222598/MSApiClient'
@@ -35,6 +35,11 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'MSApiClient' => ['MSApiClient/Assets/*.png']
   # }
+
+  s.dependency "AFNetworking", "~> 3.1.0"
+  s.dependency "YYCache", "~> 1.0.3"
+  s.dependency 'AliyunOSSiOS', '~> 2.6.0'
+  s.dependency 'MJExtension', '~> 3.0.13'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
