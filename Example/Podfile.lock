@@ -16,7 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - AliyunOSSiOS (2.6.2)
   - MJExtension (3.0.13)
-  - MSApiClient (1.0.4):
+  - MSApiClient (1.0.5):
     - AFNetworking (~> 3.1.0)
     - AliyunOSSiOS (~> 2.6.0)
     - MJExtension (~> 3.0.13)
@@ -34,7 +34,7 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   AliyunOSSiOS: 602bc287cfa30a2a6375907e684ec66d0c45e3f1
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
-  MSApiClient: 6e7bc6acdff0a6dcbf3e136e724142f9153e7db4
+  MSApiClient: f7d82b2ae5108536eb7d78094e5501fefa27bebb
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
 PODFILE CHECKSUM: 8b31d88bc160d3560788735d134dc91902390bfb
