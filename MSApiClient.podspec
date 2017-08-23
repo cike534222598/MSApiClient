@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MSApiClient'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'Network request components.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                                Microseer internal network request components.
+    Microseer internal network request components.
                        DESC
 
   s.homepage         = 'https://github.com/cike534222598/MSApiClient'
