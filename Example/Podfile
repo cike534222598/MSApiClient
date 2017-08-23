@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MSApiClient_Example' do
+  pod 'MSApiClient', :path => '../'
+
+  target 'MSApiClient_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
